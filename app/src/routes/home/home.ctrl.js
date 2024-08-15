@@ -11,6 +11,17 @@ const output = {
     },
     register: (req, res) => {
         res.render("home/register");
+    },
+
+    // 팝업 테스트
+    grid: (req, res) => {
+        res.render("home/grid");
+    },
+    popup: (req, res) => {
+        res.render("home/popup");
+    },
+    popup2: (req, res) => {
+        res.render("home/popup2");
     }
 }
 

@@ -12,4 +12,9 @@ router.get("/register", ctrl.output.register);
 router.post("/login", ctrl.process.login);
 router.post("/register", ctrl.process.register);
 
+// 팝업 테스트
+router.get("/grid", ctrl.output.grid);
+router.get("/popup", ctrl.output.popup);
+router.get("/popup2", ctrl.output.popup2);
+
 module.exports = router;
